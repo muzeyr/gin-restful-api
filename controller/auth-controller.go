@@ -4,10 +4,10 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/adhiardiansyah/gin-gonic-restful-api/dto"
-	"github.com/adhiardiansyah/gin-gonic-restful-api/entity"
-	"github.com/adhiardiansyah/gin-gonic-restful-api/helper"
-	"github.com/adhiardiansyah/gin-gonic-restful-api/service"
+	"github.com/muzeyr/gin-restful-api/dto"
+	"github.com/muzeyr/gin-restful-api/entity"
+	"github.com/muzeyr/gin-restful-api/helper"
+	"github.com/muzeyr/gin-restful-api/service"
 	"github.com/gin-gonic/gin"
 )
 

@@ -4,8 +4,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/adhiardiansyah/gin-gonic-restful-api/helper"
-	"github.com/adhiardiansyah/gin-gonic-restful-api/service"
+	"github.com/muzeyr/gin-restful-api/helper"
+	"github.com/muzeyr/gin-restful-api/service"
 	"github.com/dgrijalva/jwt-go"
 	"github.com/gin-gonic/gin"
 )

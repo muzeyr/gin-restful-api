@@ -1,7 +1,7 @@
 package repository
 
 import (
-	"github.com/adhiardiansyah/gin-gonic-restful-api/entity"
+	"github.com/muzeyr/gin-restful-api/entity"
 	"gorm.io/gorm"
 )
 

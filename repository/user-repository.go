@@ -3,7 +3,7 @@ package repository
 import (
 	"log"
 
-	"github.com/adhiardiansyah/gin-gonic-restful-api/entity"
+	"github.com/muzeyr/gin-restful-api/entity"
 	"golang.org/x/crypto/bcrypt"
 	"gorm.io/gorm"
 )

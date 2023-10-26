@@ -3,9 +3,9 @@ package service
 import (
 	"log"
 
-	"github.com/adhiardiansyah/gin-gonic-restful-api/dto"
-	"github.com/adhiardiansyah/gin-gonic-restful-api/entity"
-	"github.com/adhiardiansyah/gin-gonic-restful-api/repository"
+	"github.com/muzeyr/gin-restful-api/dto"
+	"github.com/muzeyr/gin-restful-api/entity"
+	"github.com/muzeyr/gin-restful-api/repository"
 	"github.com/mashingan/smapping"
 )
 

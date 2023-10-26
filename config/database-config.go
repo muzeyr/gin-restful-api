@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/adhiardiansyah/gin-gonic-restful-api/entity"
+	"github.com/muzeyr/gin-restful-api/entity"
 	"github.com/joho/godotenv"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
