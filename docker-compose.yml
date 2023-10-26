@@ -1,0 +1,14 @@
+version: '3'
+services:
+  mysql:
+    image: mysql:5.7
+    container_name: go_gin_mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: m232425KeM
+      MYSQL_DATABASE: gin
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./mysql-data:/var/lib/mysql
+    entrypoint: /docker-entrypoint.sh
+    command: --default-authentication-plugin=mysql_native_password
